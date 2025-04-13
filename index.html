@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monomakh&family=National+Park:wght@200..800&family=Rationale&display=swap" rel="stylesheet">
+<meta name="author" content="Ankit Batviya">
+
+</head>
+<body>
+    <nav>
+        <div id="Heading" >
+            Choice Your Piker
+
+        </div>
+    </nav>
+    <main>
+        <div class="cart-container">
+            <p style="
+                 font-family: 'Rationale', sans-serif;
+                 font-size: larger;
+                ">rgb(
+                <span id="redColorCode">133</span>,
+                <span id="greenColorCode">68</span>,
+                <span id="blueColorCode">66</span>)
+            </p>
+
+            <ul>
+                <li style="pointer-events: none; font-size: large;">color code:</li>
+                <li><input type="number" placeholder="Red"  id="redInput">,</li>
+                <li><input type="number" placeholder="Green"id="greenInput">,</li>
+                <li><input type="number" placeholder="Blue" id="BlueInput"></li>
+            </ul>
+       
+            <ul>
+                <li><button id="generateBtn">Genrate</button></li>
+                <li><button id="resetbtn">Reset</button></li>
+                <li><button id="Randombtn">Random</button></li>
+            </ul>
+
+        </div>
+    </main>
+    <footer>
+        <p>Made with ❤️ by Ankit Batviya</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
