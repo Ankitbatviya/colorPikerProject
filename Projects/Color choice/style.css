@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+body
+{
+    font-size: 100%;
+    background-color: rgb(133,68,66);
+    font-family: 'Rationale', sans-serif;
+
+}
+nav
+{
+    width: 100%;
+    height: 25%;
+    /* border:  1px solid black; */
+
+    background-color: #FFF4E6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    display: flex;
+    justify-content: center;
+}
+#Heading
+{
+    font-family: "Winky Rough", sans-serif;
+    font-size: 2.5vw;
+    color: #F1C232;
+
+}
+
+.cart-container
+{
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    height: 40vh;
+    width: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black      ; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    background-color: #fff4e699;
+}
+
+ul
+{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+input
+{
+    width: 40px;
+    background-color: transparent; 
+    border: none;
+    border-bottom: solid black 1px;
+    font-family: 'Rationale', sans-serif;
+    font-size: large;
+       
+
+}
+input:focus,::-webkit-inner-spin-button
+{
+    outline: none;
+    -webkit-appearance: none;
+}
+
+input::placeholder
+{
+    color: black;
+}
+
+
+/* CSS */
+button {
+  background-color: transparent;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+button:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+button:active {
+  background-color: #0000004d;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+button:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
